@@ -1,0 +1,166 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.small-capital-text{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.small-capital-text:hover{
+    color: rgb(113, 113, 113);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+nav .logo a{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+nav .nav-items ul{
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-items ul li a{
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+nav .nav-items ul li a:hover{
+    color: rgb(74, 74, 74);
+}
+
+.header-section{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    background-color: rgb(255, 203, 131);
+    padding-left: 100px;
+}
+
+.header-section p{
+    padding-top: 150px;
+}
+
+.header-section .heading{
+    margin: 0;
+    font-size: 90px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+}
+
+.card-container .card h4{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.card-container .card a{
+    text-decoration: underline;
+}
+
+.about-me{
+    color: rgb(237, 237, 237);
+    background-color: rgb(29, 29, 29);
+    height: 130vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.about-me .text-content{
+    width: 70%; 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me .text-content .heading{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.about-me .text-content a{
+    text-decoration: underline;
+    color: white;
+}
+
+.about-me .text-content a:hover{
+    color: rgb(236, 236, 236);
+}
+
+.about-me .image-content{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    width: 100%;
+    object-fit: contain;
+}
+
+.blog-topics{
+    height: 130vh;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    padding: 150px;
+    padding-bottom: 50px;
+    background-color: rgb(226, 226, 226);
+}
+
+.blog-topics h4{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.blog-topics .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: px; */
+}
+
+.blog-topics .container .card{
+    margin: auto;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.blog-topics .container .card img{
+    height: 80vh;
+}
+
+.blog-topics .container .card p{
+    display: inline;
+    text-decoration: underline;
+}
